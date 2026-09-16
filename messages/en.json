@@ -1,0 +1,18 @@
+{
+  "site": {
+    "name": "DarkMaster",
+    "tagline": "The #1 Digital Market"
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "about": "About",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "hero": {
+    "title": "Welcome to DarkMaster",
+    "subtitle": "Digital products at unbeatable prices",
+    "cta": "Browse Products"
+  }
+}
