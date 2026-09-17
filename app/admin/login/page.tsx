@@ -12,7 +12,7 @@ export default function AdminLogin() {
 
   // كلمة المرور (غيّرها لاحقاً)
   const ADMIN_USER = "admin";
-  const ADMIN_PASS = "darkmaster2025";
+  const ADMIN_PASS = "Os771378056";
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
@@ -99,7 +99,7 @@ export default function AdminLogin() {
           </button>
 
           <p className="text-center text-gray-500 text-xs mt-4">
-            الافتراضي: admin / darkmaster2025
+           
           </p>
         </form>
       </div>
