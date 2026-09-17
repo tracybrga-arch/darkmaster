@@ -3,7 +3,7 @@ import { ShoppingCart, Package } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 import type { Product } from "@/lib/supabase";
 import { notFound } from "next/navigation";
-
+export const revalidate = 0;
 export default async function CategoryPage({
   params,
 }: {

@@ -3,7 +3,7 @@ import { ShoppingCart, Package, ArrowRight, Shield, Zap, Lock } from "lucide-rea
 import { supabase } from "@/lib/supabase";
 import { notFound } from "next/navigation";
 import AddToCartButton from "@/components/AddToCartButton";
-
+export const revalidate = 0;
 export default async function ProductPage({
   params,
 }: {

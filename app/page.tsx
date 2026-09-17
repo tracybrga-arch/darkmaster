@@ -10,7 +10,7 @@ const iconMap: Record<string, any> = {
   Shield,
   Wrench,
 };
-
+export const revalidate = 0;
 export default async function Home() {
   const { data: categories } = await supabase
     .from("categories")
